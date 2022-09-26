@@ -68,7 +68,7 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
-#         name: my-artifact
+        name: cuda
         path: .\obs-backgroundremoval-win64-cuda.zip
         if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
      
